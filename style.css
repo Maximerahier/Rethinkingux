@@ -1,0 +1,229 @@
+body{
+  margin: 0;
+  paddin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #566DBC;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 40px;
+}
+/*----------style de base-----------*/
+.container{
+  width: 1260px;
+  margin: 0 auto;
+
+}
+.etape{
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color:#EA5E8A;
+  text-decoration: none;
+  padding: 15px 135px 15px 20px;
+  border-radius: 30px;
+  float: left;
+  margin-left: 393px;
+  margin-top: 74px;
+}
+.text{
+  color: #E6E9F3;
+  font-size: 26px;
+  letter-spacing: .3px;
+  width: 430px;
+  float: right;
+  margin-right: 90px;
+  line-height: 33px;
+}
+.grostitre{
+  color: #E6E9F3;
+  clear: both;
+  font-size: 82px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  float: right;
+}
+.section{
+  margin-top: 300px;
+  clear: both;
+}
+
+/*----------header-----------*/
+.header{
+  margin: 0 auto;
+  width: 1000px;
+  height: 680px;
+  background-color: #E6E9F3;
+  border-radius: 15px;
+  box-shadow: 0px 2px 18px #3B4979;
+  background-image: url("img/bgheader.png");
+}
+
+.header__soustitre{
+  color: #EA5E8A;
+  font-weight: 400;
+  font-size: 30px;
+  float: left;
+  margin: 75px 0 0 88px;
+}
+.header__titre--big{
+  color: #566DBC;
+  font-size: 82px;
+  font-weight: 700;
+  float: right;
+  width: 507px;
+  line-height: 60px;
+}
+.header__titre{
+  color: #566DBC;
+  font-size: 26px;
+  letter-spacing: .3px;
+  width: 262px;
+  float: right;
+  margin-top: 198px;
+  margin-right: 240px;
+  margin-bottom: 30px;
+}
+.header__link{
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color:#EA5E8A;
+  text-decoration: none;
+  padding: 15px 135px 15px 20px;
+  border-radius: 30px;
+  float: left;
+  clear: both;
+  margin: 209px 0 0 266px;
+}
+.linkhov:hover{
+  box-shadow: 0px 2px 18px #EA5E8A;
+}
+/*----------introduction-----------*/
+.introduction{
+
+}
+.introduction__text{
+}
+.introduction__etape{
+}
+/*----------groupe-----------*/
+
+.groupe__text{
+clear: both;
+}
+.groupe__etape{
+clear: both;
+}
+.groupe__grostitre{
+margin-right: 241px;
+margin-bottom: 150px;
+}
+/*----------footer-----------*/
+.footer{
+  clear: both;
+  margin: 0 auto;
+  width: 1000px;
+  height: 793px;
+  background-color: #E6E9F3;
+  border-radius: 15px;
+  box-shadow: 0px 2px 18px #3B4979;
+  background-image: url("img/bgfooter.png");
+  margin-bottom: 50px;
+}
+.footer__button{
+  float: left;
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color:#EA5E8A;
+  text-decoration: none;
+  padding: 15px 60px 15px 60px;
+  border-radius: 30px;
+  margin: 95px 371px;
+
+}
+.footer__text{
+  width: 480px;
+  color: #566DBC;
+  font-size: 26px;
+  letter-spacing: .3px;
+  float: right;
+  margin-right: 130px;
+  margin-bottom: 40px;
+  line-height: 33px;
+}
+.footer__email{
+  clear: both;
+  text-align: center;
+  float: right;
+  margin: 0 0 0 61px;
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color:#EA5E8A;
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+  border-radius: 30px;
+  width: 480px;
+  margin-right: 130px;
+  margin-bottom: 100px;
+
+}
+.footer__link {
+  float: left;
+  width: 350px;
+  height: 175px;
+  background-color: #E6E9F3;
+  border-radius: 15px;
+  box-shadow: 0px 2px 18px #B7B7B7;
+  background-image: url("img/bgfooter__link.png");
+  text-decoration: none;
+  margin-bottom: 55px;
+
+}
+.footer__link--first {
+  margin-left: 90px;
+  margin-right: 120px;
+}
+.footer__link:hover {
+  box-shadow: 0px 2px 18px #8F8F8F;
+}
+.footer__link--p{
+  color: #566DBC;
+  letter-spacing: .23px;
+  font-size: 20px;
+  width: 145px;
+  margin: 22px 0px 37px 52px;
+}
+.footer__link--button{
+  text-align: center;
+  float: left;
+  margin: 0 0 0 61px;
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color:#EA5E8A;
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+  border-radius: 30px;
+  width: 223px;
+}
+.credit{
+  clear: both;
+  width: 100%;
+  height: 34px;
+  background-color: #EA5E8A;
+  bottom: 0;
+  line-height: 34px;
+  border-radius: 0 0 14px 14px;
+  font-size: 11px;
+}
+.credit a{
+  text-decoration: none;
+  color: #E6E9F3;
+}
+.credit1{
+  margin-left: 130px;
+}
+.credit2 a{
+  float: right;
+  margin-right: 130px;
+}
+
+
+/*----------suite-----------*/
