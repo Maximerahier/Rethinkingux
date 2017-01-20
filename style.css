@@ -335,6 +335,25 @@ padding-top:300px;}
   margin-top: 325px;
 }
 
+.test{
+  clear: both;
+  width: 480px;
+  height: 324px;
+  background-color: red;
+  background-image: url(img/bgtest.png);
+  border-radius: 15px;
+}
+.test__button{
+  float: left;
+  font-size: 20px;
+  color: #E6E9F3;
+  background-color: #EA5E8A;
+  text-decoration: none;
+  padding: 15px 60px 15px 60px;
+  border-radius: 30px;
+  margin-top: 139px;
+  margin-left: 132px;
+}
 /*----------suite-----------*/
 /*----------footer-----------*/
 .footer{
