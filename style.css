@@ -273,19 +273,51 @@ padding-top:300px;}
   letter-spacing: .23px;
 }
 .boxother__column{
-  width: 50%;
+  width: 239px;
   float: left;
   background-color: #E6E9F3;
 }
 .boxother__radiusl{
   border-radius: 0 0 0 10px;
-  border-right: 2px solid red;
+  border-right: 3px solid #D5DBF0;
 }
 .boxother__radiusr{
   border-radius: 0 0 10px 0;
 }
+.boxother__column--el{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #566DBC;
+  font-weight: 400;
+}
 .boxother__column--el:first-child{
-  border: 2px solid red;
+  border-bottom: 3px solid #D5DBF0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+.buttonpos::before{
+  content:url(img/buttonpos.png);
+  border-radius: 200px;
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin-left: 42px;
+  margin-right: -52px;
+  margin-top: 4px;
+}
+.buttonneg::before{
+  content:url(img/buttonneg.png);
+  border-radius: 200px;
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin-left: 42px;
+  margin-right: -52px;
+  margin-top: 4px;
 }
 /*----------c'est à nous-----------*/
 .cestanous__etape{
