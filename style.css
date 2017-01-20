@@ -51,6 +51,8 @@ body{
   display: block;
   width: 38%;
 }
+.column-three{
+padding-top:300px;}
 /*----------style de base-----------*/
 .etape{
   font-size: 20px;
@@ -160,7 +162,7 @@ body{
   width: 480px;
   height: 261px;
   background-color: #E6E9F3;
-  border-radius: 15px;
+  border-radius: 13px;
   box-shadow: 0px 2px 18px #3B4979;
 
 }
@@ -171,7 +173,7 @@ body{
   color: #566DBC;
   letter-spacing: .3px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 47px;
   margin-bottom: 27px;
 }
 .demarche__box--text{
@@ -190,22 +192,100 @@ body{
 }
 .demarche__box--one{
   margin-top: 280px;
+  background-image: url("img/bgdboxone.png");
+}
+.demarche__box--three{
+  margin-top: 204px;
+  background-image: url("img/bgdboxthree.png");
+}
+.demarche__box--two{
+  background-image: url("img/bgdboxtwo.png");
+}
+.demarche__box--four{
+  background-image: url("img/bgdboxfour.png");
 }
 .demarche__box--two,
 .demarche__box--four{
   margin-top: 40px;
 }
-.demarche__box--three{
-  margin-top: 204px;
-}
+
 /*----------Enqueter-----------*/
 .enqueter__etape{
   margin-top: 316px;
+}
+.boxquote{
+  float: left;
+  box-shadow: 0px 2px 18px #3B4979;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.boxquote__white{
+  border-radius: 15px 15px 0 0 ;
+  height: 107px;
+  background-color: #E6E9F3;
+  width: 300px;
+  background-image: url("img/bgboxquote.png");
+  padding-left:50px;
+  padding-top:30px;
+}
+.boxquote__pink{
+  border-radius: 0 0 10px 10px ;
+  height: 38px;
+  color: #E6E9F3;
+  background-color: #EA5E8A;
+  width: 300px;
+  line-height: 35px;
+  padding-left: 50px;
+}
+.boxquote__quote{
+  font-size: 15px;
+  width: 216px;
+  color: #566DBC;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.boxquote__name{
+  color: #566DBC;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /*----------concurrence-----------*/
 .concurrence__etape{
   margin-top: 396px;
+}
+/*----------application-----------*/
+.boxother{
+  float: left;
+  box-shadow: 0px 2px 18px #3B4979;
+  border-radius: 10px;
+  margin-bottom: 40px;
+
+}
+.boxother__pink{
+  width: 481px;
+  line-height: 45px;
+  background-color: #EA5E8A;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: 20px;
+  color: #E6E9F3;
+  letter-spacing: .23px;
+}
+.boxother__column{
+  width: 50%;
+  float: left;
+  background-color: #E6E9F3;
+}
+.boxother__radiusl{
+  border-radius: 0 0 0 10px;
+  border-right: 2px solid red;
+}
+.boxother__radiusr{
+  border-radius: 0 0 10px 0;
+}
+.boxother__column--el:first-child{
+  border: 2px solid red;
 }
 /*----------c'est à nous-----------*/
 .cestanous__etape{
@@ -272,7 +352,7 @@ body{
   box-shadow: 0px 2px 18px #B7B7B7;
   background-image: url("img/bgfooter__link.png");
   text-decoration: none;
-  margin-bottom: 55px;
+  margin-bottom: 57px;
 
 }
 .footer__link--first {
