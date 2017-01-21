@@ -56,7 +56,6 @@ body{
   float: right;
   padding-top:300px;
 }
-
 /*----------style de base-----------*/
 .etape{
   font-size: 20px;
@@ -100,6 +99,7 @@ body{
   padding-bottom: 150px;
 }
 .section{
+  overflow: hidden;
   margin: 0 auto;
   float: none;
   clear: both;
@@ -157,6 +157,10 @@ body{
   clear: both;
   margin: 209px 0 0 282px;
   line-height: 30px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 }
 .header__link::before{
   content: url(img/arrow.svg);
@@ -367,6 +371,10 @@ body{
   border-radius: 30px;
   margin-top: 139px;
   margin-left: 132px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 }
 /*----------suite-----------*/
 /*----------footer-----------*/
@@ -381,6 +389,7 @@ body{
   box-shadow: 0px 2px 18px #3B4979;
   background-image: url("img/bgfooter.png");
   margin-bottom: 50px;
+  margin-top: 300px;
 }
 .footer__button{
   float: left;
@@ -391,6 +400,10 @@ body{
   padding: 15px 60px 15px 60px;
   border-radius: 30px;
   margin: 95px 371px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 
 }
 .footer__text{
@@ -417,6 +430,10 @@ body{
   width: 480px;
   margin-right: 130px;
   margin-bottom: 100px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 
 }
 .footer__link {
@@ -429,6 +446,10 @@ body{
   background-image: url("img/bgfooter__link.png");
   text-decoration: none;
   margin-bottom: 57px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 
 }
 .footer__link--first {
@@ -456,6 +477,10 @@ body{
   padding: 15px 0px 15px 0px;
   border-radius: 30px;
   width: 223px;
+  transition: box-shadow 0.2s ease-out;
+  -webkit-transition:box-shadow 0.2s ease-out;
+  -o-transition:box-shadow 0.2s ease-out;
+  -moz-transition:box-shadow 0.2s ease-out;
 }
 .credit{
   clear: both;
