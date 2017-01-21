@@ -53,7 +53,10 @@ body{
   width: 38%;
 }
 .column-three{
-padding-top:300px;}
+  float: right;
+  padding-top:300px;
+}
+
 /*----------style de base-----------*/
 .etape{
   font-size: 20px;
@@ -105,6 +108,7 @@ padding-top:300px;}
 .linkhov:hover{
   box-shadow: 0px 2px 18px #EA5E8A;
 }
+
 /*----------header-----------*/
 .header{
   margin: 0 auto;
@@ -145,13 +149,23 @@ padding-top:300px;}
 .header__link {
   font-size: 20px;
   color: #E6E9F3;
-  background-color:#EA5E8A;
+  background-color: #EA5E8A;
   text-decoration: none;
-  padding: 15px 135px 15px 20px;
+  padding: 10px 10px 10px 20px;
   border-radius: 30px;
   float: left;
   clear: both;
-  margin: 209px 0 0 266px;
+  margin: 209px 0 0 282px;
+  line-height: 30px;
+}
+.header__link::before{
+  content: url(img/arrow.svg);
+  border-radius: 200px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: right;
+  margin-left: 80px;
 }
 /*----------En groupe-----------*/
 .groupe__etape{
