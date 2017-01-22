@@ -73,26 +73,27 @@ body{
 }
 
 /*----------slider-----------*/
+.slider ul{
+  margin-left: 46px;
+}
 .slider ul li{
   display: inline;
   float: left;
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .slider ul li a{
   text-decoration: none;
   color: #fff;
   background-color: #EA5E8A;
-  padding: 10px 20px 10px 20px;
-  margin-left: 40px;
+  padding: 3px 13px 3px 11px;
+  margin-left: 50px;
   border-radius: 200%;
   text-align: center;
   line-height: 50px;
-  font-size: 25px;
+  font-size: 21px;
 }
-.slider ul li a:first-child{
-  margin-left: 54px;}
 
 .slider-content{
   width: 480px;
@@ -559,6 +560,7 @@ body{
   -o-transition:box-shadow 0.2s ease-out;
   -moz-transition:box-shadow 0.2s ease-out;
 }
+
 .credit{
   clear: both;
   width: 100%;

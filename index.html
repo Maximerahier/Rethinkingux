@@ -22,11 +22,11 @@
 				<h2 class="header__soustitre">Rethinking Ux</h2>
 				<p class="header__titre">Repenser & améliorer la création de groupe</p>
 				<h1 class="header__titre--big">Facebook</h1>
-				<a class="header__link linkhov" href="#">Commencer</a>
+				<a class="header__link linkhov" href="#down">Commencer</a>
 			</header>
 
 	<!--INTRODUCTION-->
-			<div class="introduction section container-small">
+			<div id="down" class="introduction section container-small">
 				<div class="column-left">
 					<h3 class="etape introduction__etape">Introduction</h3>
 				</div>
@@ -340,14 +340,14 @@
 	</div>
 	<!--footer-->
 		<div class="footer">
-			<a class="footer__button linkhov" href="#">Créer un groupe</a>
+			<a class="footer__button linkhov" target="_blank" href="https://projects.invisionapp.com/share/3CA4PBC6K#/screens/215469907_1">Créer un groupe</a>
 			<p class="footer__text">Voilà, à votre tour de laisser votre commentaire suite au test utilisateur que vous venez de passer.</p>
-			<a class="footer__email linkhov" href="#">Laisser un commentaire</a>
-			<a class="footer__link footer__link--first" href="#">
+			<a class="footer__email linkhov" href="mailto:m_rahier@outlook.com">Laisser un commentaire</a>
+			<a class="footer__link footer__link--first" href="https://www.youtube.com/watch?v=w-MiSEp_Mpo" target="_blank">
 				<p class="footer__link--p">Voici une vidéo qui me présente</p>
 				<p class="footer__link--button">Lancer</p>
 			</a>
-			<a class="footer__link" href="#">
+			<a class="footer__link" href="http://julienbertholet.be/projets/rethinking-ux/facebook/">
 				<p class="footer__link--p">Envie de voir la version mobile?</p>
 				<p class="footer__link--button">Visiter le site</p>
 			</a>
@@ -357,7 +357,7 @@
 		</div>
 		</div>
 	</div>
-</div>
+
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script>
 	$(document).ready(function() {
@@ -371,6 +371,20 @@
         $(this).addClass("active");
     });
 });
+	$(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 800);
+                return false;
+              }
+            }
+          });
+      });
 	</script>
 	<script type="text/javascript" src="_js/cs-grid.js"></script>
 	<script type="text/javascript" src="_js/grid-config.js"></script>

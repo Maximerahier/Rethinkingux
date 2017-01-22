@@ -8,7 +8,7 @@
     gridGutterWidth: 40,
     gridRowUnit: "px",
     gridRowHeight: 40,
-    activateGrid: true
+    activateGrid: false,
   };
 
   setCSGrid(myGrid);
