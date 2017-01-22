@@ -56,6 +56,23 @@ body{
   float: right;
   padding-top:300px;
 }
+.column-three--el{
+  margin-left: 40px;
+}
+/*----------slider-----------*/
+.slider ul li{
+  display: inline;
+  float: left;
+}
+.slider-content{
+  width: 480px;
+}
+#slider-item1{
+  display: block;
+}
+.hidden{
+  display: none;
+}
 /*----------style de base-----------*/
 .etape{
   font-size: 20px;
@@ -99,7 +116,6 @@ body{
   padding-bottom: 150px;
 }
 .section{
-  overflow: hidden;
   margin: 0 auto;
   float: none;
   clear: both;
@@ -285,10 +301,11 @@ body{
   box-shadow: 0px 2px 18px #3B4979;
   border-radius: 10px;
   margin-bottom: 40px;
+  margin-left: 21px;
 }
 .boxother:nth-child(2n+1){
   float: right;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .boxother__pink{
   width: 481px;
@@ -360,6 +377,9 @@ body{
   background-color: red;
   background-image: url(img/bgtest.png);
   border-radius: 15px;
+  float: right;
+  margin-top: 88px;
+  margin-right: 20px;
 }
 .test__button{
   float: left;
@@ -375,6 +395,26 @@ body{
   -webkit-transition:box-shadow 0.2s ease-out;
   -o-transition:box-shadow 0.2s ease-out;
   -moz-transition:box-shadow 0.2s ease-out;
+}
+.boxquote2:nth-child(2n+1){
+  float: right;
+}
+.boxquote2:nth-child(0n+3){
+  margin-right: 20px;
+}
+.boxquote5{
+  margin-top: 158px;
+  margin-left: 20px;
+}
+.boxquote2:last-child{
+  margin-right: 0;
+}
+.textcom{
+  margin-right: 89px;
+  margin-top: 46px;
+}
+.textf{
+  margin-bottom: 300px;
 }
 /*----------suite-----------*/
 /*----------footer-----------*/

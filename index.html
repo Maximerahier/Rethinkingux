@@ -108,10 +108,23 @@
 
 				</div>
 				<div class="column-two">
-					<img class="" src="img/#" alt="Galerie photo1">
+					<div class="slider">
+					  <ul>
+					    <li><a href="#slider-item1" class="slider-menu active">1</a></li>
+					    <li><a href="#slider-item2" class="slider-menu">2</a></li>
+					    <li><a href="#slider-item3" class="slider-menu">3</a></li>
+					    <li><a href="#slider-item4" class="slider-menu">4</a></li>
+					  </ul>
+					<div id="slider-content">
+					  <img id="slider-item1" class="slider-content" src="img/1.png">
+					  <img id="slider-item2" class="slider-content hidden" src="img/2.png">
+					  <img id="slider-item3" class="slider-content hidden" src="img/3.png">
+					  <img id="slider-item4" class="slider-content hidden" src="img/4.png">
+					</div>
+
 				</div>
-				<div class="column-three column-three--el">
-					<div class="boxquote">
+				<div class="column-three ">
+					<div class="boxquote column-three--el">
 						<div class="boxquote__white">
 							<blockquote class="boxquote__quote">« J'aimerai JUSTE pouvoir faire des lives avec les personnes de mon choix dans un groupe.»</blockquote>
 							<h4 class="boxquote__name">Alexis</h4>
@@ -121,7 +134,7 @@
 						</div>
 					</div>
 
-					<div class="boxquote">
+					<div class="boxquote column-three--el">
 						<div class="boxquote__white">
 							<blockquote class="boxquote__quote">« Je ne me sens pas assez aidé, il manque d'étapes pour quelqu'un qui débute sur l'internet »</blockquote>
 							<h4 class="boxquote__name">Georges</h4>
@@ -193,6 +206,9 @@
 						</li>
 					</ul>
 				</div>
+				</div>
+					<div class="column-right">
+
 	<!--Application3-->
 				<div class="boxother">
 					<h4 class="boxother__pink">Dribbble</h4>
@@ -213,32 +229,6 @@
 										<li class="boxother__column--el">Payant</li>
 										<li class="boxother__column--el">En fonction du nombre de membre</li>
 										<li class="boxother__column--el">Aucune confidentialité</li>
-									</ul>
-						</li>
-					</ul>
-				</div>
-				</div>
-					<div class="column-right">
-	<!--Application4-->
-				<div class="boxother">
-					<h4 class="boxother__pink">Mail</h4>
-					<ul>
-		<!--point positif-->
-						<li>
-									<ul class="boxother__column boxother__radiusl">
-										<li class="boxother__column--el buttonpos">Points positifs</li>
-										<li class="boxother__column--el">Point1</li>
-										<li class="boxother__column--el">Point2</li>
-										<li class="boxother__column--el">Point3</li>
-									</ul>
-						</li>
-		<!--point negatif-->
-						<li>
-									<ul class="boxother__column boxother__radiusr">
-										<li class="boxother__column--el buttonneg">Points négatifs</li>
-										<li class="boxother__column--el">Point1</li>
-										<li class="boxother__column--el">Point2</li>
-										<li class="boxother__column--el">Point3</li>
 									</ul>
 						</li>
 					</ul>
@@ -286,7 +276,7 @@
 		<div class="column-left">
 			<h3 class="etape">Commentaires</h3>
 
-			<div class="boxquote">
+			<div class="boxquote boxquote2">
 				<div class="boxquote__white">
 					<blockquote class="boxquote__quote">« C'est bien d'accompagner mais du coup ce n'est pas un peux trop long? »</blockquote>
 					<h4 class="boxquote__name">Philippe</h4>
@@ -296,7 +286,7 @@
 				</div>
 			</div>
 
-			<div class="boxquote">
+			<div class="boxquote boxquote2">
 				<div class="boxquote__white">
 					<blockquote class="boxquote__quote">« C'est chouette de pouvoir passer les étapes qui ne nous intéressent pas, comme l'ajout d'amis. »</blockquote>
 					<h4 class="boxquote__name">Alexis</h4>
@@ -306,7 +296,7 @@
 				</div>
 			</div>
 
-			<div class="boxquote">
+			<div class="boxquote boxquote2">
 				<div class="boxquote__white">
 					<blockquote class="boxquote__quote">« C'est bien de pouvoir donner un cadre plus précis au groupe. (famille, scolaire, etc…) »</blockquote>
 					<h4 class="boxquote__name">Maud</h4>
@@ -317,9 +307,9 @@
 			</div>
 		</div>
 		<div class="column-right">
-			<p class="text">Voici les commentaires des personnes qui ont accepté de tester la première proposition de wireframes.</p>
+			<p class="text textcom">Voici les commentaires des personnes qui ont accepté de tester la première proposition de wireframes.</p>
 
-			<div class="boxquote">
+			<div class="boxquote boxquote2 boxquote5">
 				<div class="boxquote__white">
 					<blockquote class="boxquote__quote">« Il y a beaucoup trop d'étapes. Ne vous compliquez pas la vie et n'améliorez que les étapes existantes pour commencer. »</blockquote>
 					<h4 class="boxquote__name">Arno</h4>
@@ -329,7 +319,7 @@
 				</div>
 			</div>
 
-			<div class="boxquote">
+			<div class="boxquote boxquote2">
 				<div class="boxquote__white">
 					<blockquote class="boxquote__quote">« Mon besoin d'accompagnement est plus satisfait que dans la version de facebook. »</blockquote>
 					<h4 class="boxquote__name">Georges</h4>
@@ -345,7 +335,7 @@
 		 <h3 class="etape">Second test</h3>
 	 	</div>
 		<div class="column-right">
-			<p class="text">Après avoir pris en compte les commentaires des utilisateurs nous avons compris qu'il y avait beaucoups trop d'étape. Nous avons donc repensé la création de groupe pour vous proposer un système encore inédit. Grâce à ce procédé composé de divers modules, vous avez l’occasion de vous créer un groupe sur mesure en fonction de vos attentes.</p>
+			<p class="text textf">Après avoir pris en compte les commentaires des utilisateurs nous avons compris qu'il y avait beaucoups trop d'étape. Nous avons donc repensé la création de groupe pour vous proposer un système encore inédit. Grâce à ce procédé composé de divers modules, vous avez l’occasion de vous créer un groupe sur mesure en fonction de vos attentes.</p>
 		</div>
 	</div>
 	<!--footer-->
@@ -366,8 +356,22 @@
 			<small class="credit2"><a href="http://dwm.re" target="_blank">Made with ❤︎ for DWM</a></small>
 		</div>
 		</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function() {
+    $(".slider-menu").click(function() {
+        $("#slider-content .slider-content").hide();
+        $($(this).attr("href")).show();
+    });
+
+    $(".slider-menu").click(function () {
+        $(".slider-menu").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+	</script>
 	<script type="text/javascript" src="_js/cs-grid.js"></script>
-	<script type="text/javascript" src="_js/main.js"></script>
+	<script type="text/javascript" src="_js/grid-config.js"></script>
 </div><!--Fin container-->
   </body>
 </html>
